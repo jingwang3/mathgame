@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Equation Solver</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta content="yes" name="apple-mobile-web-app-capable" />
@@ -21,7 +21,40 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <section id="intro">
+            <h1>Equation Solver</h1>
+            <input id="startBtn" type="button" name="" value="Start"/>
+        </section>
+        
+        <section id="gameplay">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse molestie consequat,
+                vel illum dolore eu feugiat nulla facilisis at vero eros et
+                accumsan et iusto odio dignissim qui blandit praesent luptatum
+                zzril delenit augue duis dolore te feugait nulla facilisi.
+                Nam liber tempor cum soluta nobis eleifend option congue
+                nihil imperdiet doming id quod mazim placerat facer possim
+                assum. Typi non habent claritatem insitam; est usus legentis
+                in iis qui facit eorum claritatem. Investigationes
+                demonstraverunt lectores legere me lius quod ii legunt saepius.
+                Claritas est etiam processus dynamicus, qui sequitur mutationem
+                consuetudium lectorum. Mirum est notare quam littera gothica,
+                quam nunc putamus parum claram, anteposuerit litterarum formas
+                humanitatis per seacula quarta decima et quinta decima. Eodem
+                modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+                in futurum.
+            </p>
+        </section>
+        
+        <section id="ending">
+            
+        </section>
+        
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
