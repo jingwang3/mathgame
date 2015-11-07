@@ -99,6 +99,13 @@ textarea {
     display: none;
 }
 
+ul#answerList li, ul#solutionList li{
+    display: inline-block;
+    background-color:yellow;
+    padding:10px;
+    min-width:30px;
+    min-height:30px;
+}
 
 
 
