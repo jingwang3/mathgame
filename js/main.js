@@ -101,9 +101,10 @@ function checkAnswer() {
 };
 
 function insertNumber(posX, posY, num) {
+    var boxWidth = $('#solutionList').width()*0.12;
     if (posY >= $('#solutionList').position().top && posY <= ($('#solutionList').position().top + 50)) {
         $('.ans-field').each(function(key, value) {
-            if (posX >= $(this).position().left && posX <= $(this).position().left + 50) {
+            if (posX >= $(this).position().left && posX <= $(this).position().left + boxWidth) {
                 $(this).addClass('updated').text(num);
                 checkAnswer();
             }
