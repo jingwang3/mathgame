@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Equation Solver</title>
+        <title>Equation Game</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta content="yes" name="apple-mobile-web-app-capable" />
@@ -22,17 +22,17 @@
 
         <!-- Add your site or application content here -->
         <section id="intro">
-            <h1>Equation Solver</h1>
-            <input id="startBtn" type="button" name="" value="Start"/>
+            <h1 id="gameName">Equation Game</h1>
+            <input id="startBtn" class="game-btn" type="button" name="" value="Start"/>
         </section>
         
         <section id="gameplay">
             <ul id="questionList">
-                <li class="equa-list-item"><span class="ques ques-first">???</span> + <span class="ques ques-second">???</span> = <span class="ans">?</span></li>
-                <li class="equa-list-item"><span class="ques ques-first">???</span> + <span class="ques ques-second">???</span> = <span class="ans">?</span></li>
-                <li class="equa-list-item"><span class="ques ques-first">???</span> + <span class="ques ques-second">???</span> = <span class="ans">?</span></li>
-                <li class="equa-list-item"><span class="ques ques-first">???</span> + <span class="ques ques-second">???</span> = <span class="ans">?</span></li>
-                <li class="equa-list-item"><span class="ques ques-first">???</span> + <span class="ques ques-second">???</span> = <span class="ans">?</span></li>
+                <li class="equa-list-item"><span class="ques ques-first">???</span><span class="ques ques-second">???</span></li>
+                <li class="equa-list-item vertical"><span class="ques ques-first">???</span><span class="ques ques-second">???</span></li>
+                <li class="equa-list-item"><span class="ques ques-first">???</span><span class="ques ques-second">???</span></li>
+                <li class="equa-list-item vertical"><span class="ques ques-first">???</span><span class="ques ques-second">???</span></li>
+                <li class="equa-list-item"><span class="ques ques-first">???</span><span class="ques ques-second">???</span></li>
             </ul>
             
             <ul id="solutionList">
@@ -59,7 +59,18 @@
         </section>
         
         <section id="ending">
-            
+            <h1 id="gameResults">Results</h1>
+            <ul id="resultList">
+                <li class="res-list-item"><span class="res res-first">???</span><span class="res res-second">???</span><span class="res res-user-ans"></span><span class="res res-ans"></span></li>
+                <li class="res-list-item"><span class="res res-first">???</span><span class="res res-second">???</span><span class="res res-user-ans"></span><span class="res res-ans"></span></li>
+                <li class="res-list-item"><span class="res res-first">???</span><span class="res res-second">???</span><span class="res res-user-ans"></span><span class="res res-ans"></span></li>
+                <li class="res-list-item"><span class="res res-first">???</span><span class="res res-second">???</span><span class="res res-user-ans"></span><span class="res res-ans"></span></li>
+                <li class="res-list-item"><span class="res res-first">???</span><span class="res res-second">???</span><span class="res res-user-ans"></span><span class="res res-ans"></span></li>
+            </ul>
+            <div id="endingMenu">
+                <input id="restartBtn" type="button" class="game-btn" name="" value="New Game"/>
+                <input id="mainmenuBtn" type="button" class="game-btn" name="" value="Main Menu"/>
+            </div>
         </section>
         
 
@@ -67,14 +78,5 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
     </body>
 </html>
